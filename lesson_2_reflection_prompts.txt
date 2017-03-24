@@ -11,14 +11,20 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+    git status will show you the files that are in the commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+    When you want to take a completely different direction like
+    changing the language.
 
 How do the diagrams help you visualize the branch structure?
+    It tells how is the work evolving and where we are located.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    Both commits merge together to create one.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+    Saving time vs what information needs to be merged.
